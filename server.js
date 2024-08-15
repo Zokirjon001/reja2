@@ -33,7 +33,7 @@ app.post("/create-item", (req,res) => {
     res.json({ test: "success"});
 });
 app.get("./", function(req, res) {
-    res.render("harid")
+    res.render("harid.ejs")
 });
 
 app.get("./", function(req, res) {
